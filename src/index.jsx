@@ -11,7 +11,7 @@ export default class App extends Component {
 	}
 }
 
-ReactDOM.createRoot(
+ReactDOM.render(
 		<App/>,
 		document.getElementById("react-template-container")
 );
