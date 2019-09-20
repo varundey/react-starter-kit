@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from "react"
+import ReactDOM from "react-dom"
 
 export default class App extends Component {
 	render() {
@@ -9,3 +10,8 @@ export default class App extends Component {
 		)
 	}
 }
+
+ReactDOM.createRoot(
+		<App/>,
+		document.getElementById("react-template-container")
+);
